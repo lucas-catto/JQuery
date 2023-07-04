@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery</title>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div><h1>Lista de Nomes</h1></div>
+
+        <div>
+            <ul>
+                <li>Lucas Silva</li>
+                <li>Elon Musk</li>
+                <li>Steve Jobs</li>
+                <li>Larry Ellison</li>
+                <li>Alan Kay</li>
+            </ul>
+        </div>
+
+        <div>
+            <button id="btn">Click Here!</button>
+        </div>
+
+        <script>
+            // $('h1').fadeOut("2000") .fadeIn("2000");
+            // $('li').remove();
+            // $('h1').append(" dos usuários:");
+            // $('#btn').remove();
+            // ---------------------------------------
+            // $('#btn').on("click", botao)
+
+            // function botao(){
+                // $('h1').remove();
+            // }
+            // ---------------------------------------
+
+            $('#btn').on("click", color)
+
+            function color(){
+                $('li').css({'color':'blue'})
+            }
+
+        </script>
+    </body>
+</html>
